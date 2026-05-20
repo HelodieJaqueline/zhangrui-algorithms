@@ -1,4 +1,4 @@
-package com.zhangrui.algorithms.zhangruialgorithms;
+package com.zhangrui.algorithms;
 
 import java.util.HashSet;
 
@@ -21,7 +21,8 @@ public class LengthOfLongestSubstring {
                 left++;
             }
             window.add(r);
-            max = Math.max(max, right - left + 1);
+            max = Math.max(max, (right - left) + 1);
+
             right++;
         }
         return max;
@@ -29,6 +30,8 @@ public class LengthOfLongestSubstring {
 
     public static void main(String[] args) {
         System.out.println(lengthOfLongestSubstring("abcabcbb"));
+        System.out.println(lengthOfLongestSubstring("bbbbb"));
+        System.out.println(lengthOfLongestSubstring("pwwkew"));
     }
 
 }

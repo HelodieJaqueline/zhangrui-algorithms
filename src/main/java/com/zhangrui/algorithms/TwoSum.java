@@ -1,4 +1,4 @@
-package com.zhangrui.algorithms.zhangruialgorithms;
+package com.zhangrui.algorithms;
 
 import java.util.HashMap;
 

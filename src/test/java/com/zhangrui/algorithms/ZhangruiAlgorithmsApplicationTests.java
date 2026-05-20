@@ -1,4 +1,4 @@
-package com.zhangrui.algorithms.zhangruialgorithms;
+package com.zhangrui.algorithms;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

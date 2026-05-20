@@ -1,4 +1,4 @@
-package com.zhangrui.algorithms.zhangruialgorithms;
+package com.zhangrui.algorithms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
